@@ -1,5 +1,9 @@
 {
     "python.linting.flake8Enabled": true,
     "python.linting.lintOnSave": true,
-    "python.linting.flake8Path": "d:/Programs/PythonProject/ExampleFastAPIProject/venv/Scripts/flake8.exe"
+    "python.linting.flake8Path": "d:/Programs/PythonProject/ExampleFastAPIProject/venv/Scripts/flake8.exe",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none"
 }
